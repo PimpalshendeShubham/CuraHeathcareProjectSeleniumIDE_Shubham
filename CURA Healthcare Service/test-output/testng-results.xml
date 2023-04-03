@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-30T18:58:34 IST" name="Suite" finished-at="2023-03-30T18:59:12 IST" duration-ms="38331">
+    <groups>
+    </groups>
+    <test started-at="2023-03-30T18:58:34 IST" name="Test" finished-at="2023-03-30T18:59:12 IST" duration-ms="38331">
+      <class name="testngproject.EndToEndTest">
+        <test-method is-config="true" signature="initSetUP()[pri:0, instance:testngproject.EndToEndTest@6302bbb1]" started-at="2023-03-30T18:59:04 IST" name="initSetUP" finished-at="2023-03-30T18:59:08 IST" duration-ms="3747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetUP -->
+        <test-method signature="verifyEndToEndFlow()[pri:0, instance:testngproject.EndToEndTest@6302bbb1]" started-at="2023-03-30T18:59:08 IST" name="verifyEndToEndFlow" finished-at="2023-03-30T18:59:12 IST" duration-ms="3946" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEndToEndFlow -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testngproject.EndToEndTest@6302bbb1]" started-at="2023-03-30T18:59:12 IST" name="teardown" finished-at="2023-03-30T18:59:12 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testngproject.EndToEndTest -->
+      <class name="testngproject.HomePageTest">
+        <test-method is-config="true" signature="initSetUP()[pri:0, instance:testngproject.HomePageTest@2a65fe7c]" started-at="2023-03-30T18:58:44 IST" name="initSetUP" finished-at="2023-03-30T18:58:49 IST" duration-ms="4673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetUP -->
+        <test-method signature="verifyHomePageFooterUI()[pri:0, instance:testngproject.HomePageTest@2a65fe7c]" started-at="2023-03-30T18:58:49 IST" name="verifyHomePageFooterUI" finished-at="2023-03-30T18:58:49 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageFooterUI -->
+        <test-method signature="verifyHomePageUI()[pri:0, instance:testngproject.HomePageTest@2a65fe7c]" started-at="2023-03-30T18:58:49 IST" name="verifyHomePageUI" finished-at="2023-03-30T18:58:49 IST" duration-ms="196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageUI -->
+        <test-method signature="verifyMakeAppointmentButtonWithLogin()[pri:0, instance:testngproject.HomePageTest@2a65fe7c]" started-at="2023-03-30T18:58:49 IST" name="verifyMakeAppointmentButtonWithLogin" finished-at="2023-03-30T18:58:51 IST" duration-ms="2096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMakeAppointmentButtonWithLogin -->
+        <test-method signature="verifyMakeAppointmentButtonWithoutLogin()[pri:0, instance:testngproject.HomePageTest@2a65fe7c]" started-at="2023-03-30T18:58:51 IST" name="verifyMakeAppointmentButtonWithoutLogin" finished-at="2023-03-30T18:58:52 IST" duration-ms="774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMakeAppointmentButtonWithoutLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testngproject.HomePageTest@2a65fe7c]" started-at="2023-03-30T18:58:52 IST" name="teardown" finished-at="2023-03-30T18:58:52 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testngproject.HomePageTest -->
+      <class name="testngproject.LoginPageTest">
+        <test-method is-config="true" signature="initSetUP()[pri:0, instance:testngproject.LoginPageTest@1283bb96]" started-at="2023-03-30T18:58:34 IST" name="initSetUP" finished-at="2023-03-30T18:58:38 IST" duration-ms="4266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetUP -->
+        <test-method signature="loginWithBlankCredentials()[pri:0, instance:testngproject.LoginPageTest@1283bb96]" started-at="2023-03-30T18:58:38 IST" name="loginWithBlankCredentials" description="Validating login functionality with Blank Username and password" finished-at="2023-03-30T18:58:39 IST" duration-ms="1296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithBlankCredentials -->
+        <test-method signature="loginWithInvalidPassword()[pri:0, instance:testngproject.LoginPageTest@1283bb96]" started-at="2023-03-30T18:58:39 IST" name="loginWithInvalidPassword" description="Validating login functionality with valid username and Invalid Password" finished-at="2023-03-30T18:58:40 IST" duration-ms="988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method signature="loginWithInvalidUsername()[pri:0, instance:testngproject.LoginPageTest@1283bb96]" started-at="2023-03-30T18:58:40 IST" name="loginWithInvalidUsername" description="Validating login functionality with Invalid username and valid Password" finished-at="2023-03-30T18:58:41 IST" duration-ms="1022" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidUsername -->
+        <test-method signature="loginWithValidCredentials()[pri:0, instance:testngproject.LoginPageTest@1283bb96]" started-at="2023-03-30T18:58:41 IST" name="loginWithValidCredentials" description="Validating login functionality with valid credentials" finished-at="2023-03-30T18:58:44 IST" duration-ms="2357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCredentials -->
+        <test-method signature="verifyTextOnLoginPage()[pri:0, instance:testngproject.LoginPageTest@1283bb96]" started-at="2023-03-30T18:58:44 IST" name="verifyTextOnLoginPage" description="Validating login UI" finished-at="2023-03-30T18:58:44 IST" duration-ms="704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTextOnLoginPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testngproject.LoginPageTest@1283bb96]" started-at="2023-03-30T18:58:44 IST" name="teardown" finished-at="2023-03-30T18:58:44 IST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testngproject.LoginPageTest -->
+      <class name="testngproject.MakeAppointmentPageTest">
+        <test-method is-config="true" signature="initSetUP()[pri:0, instance:testngproject.MakeAppointmentPageTest@4135c3b]" started-at="2023-03-30T18:58:52 IST" name="initSetUP" finished-at="2023-03-30T18:58:56 IST" duration-ms="3914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initSetUP -->
+        <test-method signature="verifyAppoinmentBookingUI()[pri:0, instance:testngproject.MakeAppointmentPageTest@4135c3b]" started-at="2023-03-30T18:58:56 IST" name="verifyAppoinmentBookingUI" finished-at="2023-03-30T18:58:59 IST" duration-ms="2247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppoinmentBookingUI -->
+        <test-method signature="verifyAppoinmentBookingWithLogin()[pri:0, instance:testngproject.MakeAppointmentPageTest@4135c3b]" started-at="2023-03-30T18:58:59 IST" name="verifyAppoinmentBookingWithLogin" finished-at="2023-03-30T18:59:01 IST" duration-ms="2729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppoinmentBookingWithLogin -->
+        <test-method signature="verifyAppoinmentBookingWithoutLogin()[pri:0, instance:testngproject.MakeAppointmentPageTest@4135c3b]" started-at="2023-03-30T18:59:01 IST" name="verifyAppoinmentBookingWithoutLogin" finished-at="2023-03-30T18:59:04 IST" duration-ms="2724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAppoinmentBookingWithoutLogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testngproject.MakeAppointmentPageTest@4135c3b]" started-at="2023-03-30T18:59:04 IST" name="teardown" finished-at="2023-03-30T18:59:04 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testngproject.MakeAppointmentPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

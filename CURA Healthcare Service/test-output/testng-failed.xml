@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testngproject.LoginPageTest">
+        <methods>
+          <include name="loginWithInvalidUsername"/>
+          <include name="loginWithBlankCredentials"/>
+          <include name="loginWithInvalidPassword"/>
+          <include name="initSetUP"/>
+          <include name="loginWithValidCredentials"/>
+          <include name="verifyTextOnLoginPage"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testngproject.LoginPageTest -->
+      <class name="testngproject.MakeAppointmentPageTest">
+        <methods>
+          <include name="verifyAppoinmentBookingWithLogin"/>
+          <include name="verifyAppoinmentBookingUI"/>
+          <include name="verifyAppoinmentBookingWithoutLogin"/>
+          <include name="initSetUP"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testngproject.MakeAppointmentPageTest -->
+      <class name="testngproject.HomePageTest">
+        <methods>
+          <include name="verifyMakeAppointmentButtonWithLogin"/>
+          <include name="initSetUP"/>
+          <include name="verifyMakeAppointmentButtonWithoutLogin"/>
+          <include name="verifyHomePageUI"/>
+          <include name="teardown"/>
+          <include name="verifyHomePageFooterUI"/>
+        </methods>
+      </class> <!-- testngproject.HomePageTest -->
+      <class name="testngproject.EndToEndTest">
+        <methods>
+          <include name="initSetUP"/>
+          <include name="verifyEndToEndFlow"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testngproject.EndToEndTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
